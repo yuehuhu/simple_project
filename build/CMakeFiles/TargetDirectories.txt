@@ -1,0 +1,8 @@
+/Users/yuehu/work_dir/simple_project/build/CMakeFiles/edit_cache.dir
+/Users/yuehu/work_dir/simple_project/build/CMakeFiles/rebuild_cache.dir
+/Users/yuehu/work_dir/simple_project/build/src/CMakeFiles/math_utils.dir
+/Users/yuehu/work_dir/simple_project/build/src/CMakeFiles/edit_cache.dir
+/Users/yuehu/work_dir/simple_project/build/src/CMakeFiles/rebuild_cache.dir
+/Users/yuehu/work_dir/simple_project/build/test/CMakeFiles/test_math_utils.dir
+/Users/yuehu/work_dir/simple_project/build/test/CMakeFiles/edit_cache.dir
+/Users/yuehu/work_dir/simple_project/build/test/CMakeFiles/rebuild_cache.dir

@@ -1,5 +1,6 @@
 #include "math_utils.h"
 #include <cassert>
+#include <iostream>
 
 void test_add() {
     assert(add(3, 4) == 7);
