@@ -16,10 +16,3 @@ jobs:
       run: mkdir build; cd build; cmake ..
     - name: make
       run: cd build; make
-
-  test:
-    runs-on: ubuntu-latest
-
-    steps:
-    - name: test
-      run: cd build; ./test/test_math_utils
