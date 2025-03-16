@@ -10,5 +10,5 @@ FetchContent_MakeAvailable(catch)
 
 include_directories(${CMAKE_SOURCE_DIR}/src)
 
-add_executable(test_math_utils test_main.cpp test_math_utils.cpp)
+add_executable(test_math_utils test_math_utils.cpp)
 target_link_libraries(test_math_utils MathUtils Catch2::Catch2)

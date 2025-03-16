@@ -1,22 +1,15 @@
+#define CATCH_CONFIG_MAIN
+#include "catch2/catch.hpp"
 #include "math_utils.h"
-#include <cassert>
-#include <iostream>
 
-void test_add() {
-    assert(add(3, 4) == 7);
-    assert(add(-1, 1) == 0);
-    assert(add(-3, -4) == -7);
+TEST_CASE("add is ok", "[math_utils]") {
+  REQUIRE(add(3, 4) == 7);
+  REQUIRE(add(-1, 1) == 0);
+  REQUIRE(add(-3, -4) == -7);
 }
 
-void test_subtract() {
-    assert(subtract(5, 3) == 2);
-    assert(subtract(-1, 1) == -2);
-    assert(subtract(-3, -4) == 1);
-}
-
-int main() {
-    test_add();
-    test_subtract();
-    std::cout << "All tests passed!" << std::endl;
-    return 0;
+TEST_CASE("subtract is ok", "[math_utils]") {
+  REQUIRE(subtract(5, 3) == 2);
+  REQUIRE(subtract(-1, 1) == -2);
+  REQUIRE(subtract(-3, -4) == 1);
 }
