@@ -25,4 +25,4 @@ jobs:
       - run: echo "Stage 3 (depends on Stage 2)"
 
   call-workflow:
-    uses: ./.github/workflows/single_stage.yml
+    uses: ./.github/workflows/reuse.yml
