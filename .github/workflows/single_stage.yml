@@ -6,13 +6,6 @@ on:
   pull_request:
     branches: [ "main" ]
   workflow_call:
-    inputs:
-      username:
-        required: true
-        type: string
-    secrets:
-      token:
-        required: true
 
 jobs:
   job1:
