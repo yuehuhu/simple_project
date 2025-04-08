@@ -1,4 +1,4 @@
-name: much_stage
+name: reuse1
 
 on:
   push:
