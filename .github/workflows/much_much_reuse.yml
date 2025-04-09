@@ -15,4 +15,4 @@ jobs:
       
   # 复用外部 workflow
   call-reuse-workflow:
-    uses: xiaoniuniuniu/hello/.github/workflows/main.yaml@main # 指定分支/commit
+    uses: xiaoniuniuniu/hello/blob/main/.github/workflows/main.yml # 指定分支/commit
