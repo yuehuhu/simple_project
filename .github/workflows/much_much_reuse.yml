@@ -16,3 +16,5 @@ jobs:
   # 复用外部 workflow
   call-reuse-workflow:
     uses: xiaoniuniuniu/hello/.github/workflows/main.yml@main #    指定分支/commit
+    secrets:
+      token: ${{ secrets.GITHUB_TOKEN }}
