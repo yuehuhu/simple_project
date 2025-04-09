@@ -20,5 +20,5 @@ jobs:
     permissions:
       contents: read
       actions: read
-    secrets:
+    with:
       token: ${{ secrets.GITHUB_TOKEN }}
