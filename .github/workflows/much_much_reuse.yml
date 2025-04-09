@@ -17,8 +17,8 @@ jobs:
   
   call-reuse-workflow:
     uses: xiaoniuniuniu/hello/.github/workflows/main.yml@main #    指定分支/commit
-    permissions:
-      contents: read
-      actions: read
-    secrets:
-      token: ${{ secrets.GITHUB_TOKEN }}
+    # permissions:
+    #   contents: read
+    #   actions: read
+    # secrets:
+    #   token: ${{ secrets.GITHUB_TOKEN }}
