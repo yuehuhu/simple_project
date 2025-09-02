@@ -4,7 +4,7 @@
 
 TEST_CASE("add is ok", "[math_utils]") {
   REQUIRE(add(3, 4) == 7);
-  REQUIRE(add(-1, 1) == 0);
+  REQUIRE(add(-1, 2) == 1);
   REQUIRE(add(-3, -5) == -8);
 }
 
